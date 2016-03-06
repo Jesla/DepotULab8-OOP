@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    addEventListener("click", buttonClick1);
+    var createDie = document.getElementById('addDie');
+    createDie.addEventListener("click", buttonClick1);
 
 function buttonClick1() {
     var divBox = document.createElement("div");
@@ -18,9 +19,13 @@ function buttonClick1() {
 
 var diceNumber = []; //this has to stay outside and be global
 
+
 // function(e) {
 // e.target.innerHTML = (Math.floor((Math.random() * 6) + 1));
 
 // to loop - use for statement
     
 // text.randomNumber
+
+// roll creates a newDie
+// merge over old dice
