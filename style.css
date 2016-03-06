@@ -1,12 +1,3 @@
-/*button {
-    width: 150px;
-    height: 50px;
-    color: white;
-    background-color: slategray;
-    margin-bottom: 20px;
-    font-size: 15px;
-}*/
-
 #addDie {
     display: inline-block;
     width: 150px;
@@ -17,7 +8,6 @@
     margin-bottom: 20px;
     font-size: 15px;
     margin-right: 20px;
-    
 }
 
 #rollDice {
